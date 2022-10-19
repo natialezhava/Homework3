@@ -1,5 +1,6 @@
 body {
     background-color: #F6F8F9;
+    padding-top: 68px;
 }
 /* header styles */
 .logo {
@@ -19,6 +20,12 @@ body {
 }
 .header {
     padding: 18px 0 17px 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #F6F8F9;
+    z-index: 2;
 }
 .nav-li1 {
     display: inline-block;
@@ -87,8 +94,32 @@ body {
     margin-top: 102px;
     margin-bottom: 102px;
 }
-.img h4 {
+/* .img1 h4 {
     position: absolute;
     top: 194px;
-    left: 308px ;
+    left: 308px;
+}
+.img {
+    top: 194px;
+    left: 308px;
+} */
+.left-block h4 {
+    position: absolute;
+    top: 194px;
+    left: 308px;
+}
+.img1 {
+    margin-bottom: 40px;
+}
+.h4 {
+    margin-top: 58px;
+    margin-bottom: 40px;
+    font-family: 'Helvetica';
+    color: #202124;
+}
+.h2 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: 'Helvetica';
+    color: #202124;
 }
